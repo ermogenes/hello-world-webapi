@@ -38,6 +38,9 @@ namespace hello_world_webapi
 
             // app.UseHttpsRedirection();
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             app.UseAuthorization();
